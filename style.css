@@ -1,0 +1,240 @@
+*{ 
+  box-sizing: border-box;
+}
+
+#nav{ 
+  /*排版用border: 1px solid red; */
+  background-color: #009999;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left:0;
+  z-index: 100;
+}
+
+#content{
+  /*排版用 border: 1px solid red; for typesetting*/
+  position: relative;
+  top: 78px;
+  padding: 15px;
+
+}
+
+.container{
+/*排版用 border: 1px solid #ccc; */
+width: 800px;
+margin: 0 auto;
+}
+
+/*排版用
+#about, #my_work, #contact_me {
+border: 1px solid yellow;
+}＊/
+/*按鈕外觀*/
+
+.menu li {
+  display: inline-block;  /*性質*/ 
+
+  width: 150px;   /*大小*/
+  padding: 10px 0px;
+
+  border:  1px solid #fff; /*邊界設定*/
+  border-radius: 8px;
+
+  list-style-type: none; /*內容物設定*/
+  text-align: center;
+  background-color: #009999;
+  color:#fff;
+}
+/*按鈕內文字*/ 
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+/*點擊時按鈕型態會如何改變*/
+li:hover {
+  border: 1px solid #ff6600;
+  background-color: #fff;
+}
+/*點擊時按鈕內內容會如何改變*/
+li:hover a {
+  color: #ff6600;
+  font-weight: 800;
+}
+
+#my_avatar {
+  float: left;
+  /*排版用border: 1px solid red; */
+  margin-right: 20px;
+}
+
+#my_avatar img {
+  width: 200px
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+hr {
+  border: 0.5px solid #eee;
+}
+
+table {
+  font-size: 14px;
+  text-align: left;
+}
+
+td {
+  padding-left: 10px;
+  color: #666;
+}
+
+th, td {
+  vertical-align: top;
+}
+
+.item {
+  position:relative;
+  max-width: 30%;
+
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.item_info {
+  /*排版用border: 1px solid red; */
+  background-color: rgba(255,255,255,.8);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  padding: 25px 10px;
+
+  opacity: 0; /*before clicking it is invisible*/
+}
+
+.item_info:hover {
+  opacity: 1; /*When the mouse is on it, it shows*/
+}
+
+.item img{
+  width: 100%;
+}
+
+#contact_me {
+ /*排版用 border: 1px solid green; */
+}
+
+form.contact_form {
+  /*排版用 border: 1px solid red; */
+  width: 50%; /*相較於容器（即＃contact_me的寬度的50%)*/
+  margin: 0 auto; 
+}
+
+.form-row input, .form-row textarea {
+  border-radius: 3px;
+  width: 100%;
+  border: 1px solid #D6D9Dc;
+  padding: 7px;
+}
+
+.form-row textarea {
+resize: none;
+height: 4em;
+}
+
+.form-row button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.form-row button[type="submit"] {
+  background-color: #5995DA;
+  color: #FFFFF;
+}
+
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
+
+hr.bar {
+  border: 20px solid #ff6600;
+  width: 80px;
+}
+
+.menu {
+  float: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+#about h1 {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+#my-work-gallery {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
