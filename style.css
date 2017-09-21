@@ -54,12 +54,12 @@ a {
 }
 /*點擊時按鈕型態會如何改變*/
 li:hover {
-  border: 1px solid #ff6600;
+  border: 1px solid #009999;
   background-color: #fff;
 }
 /*點擊時按鈕內內容會如何改變*/
 li:hover a {
-  color: #ff6600;
+  color: #009999;
   font-weight: 800;
 }
 
@@ -79,10 +79,6 @@ h1 {
 
 h3 {
   margin: 0;
-}
-
-hr {
-  border: 0.5px solid #eee;
 }
 
 table {
@@ -175,8 +171,8 @@ height: 4em;
 }
 
 hr.bar {
-  border: 20px solid #ff6600;
-  width: 80px;
+  border: 1px solid #009999;
+  width: 100px;
 }
 
 .menu {
