@@ -97,7 +97,6 @@ th, td {
 
 .item {
   position:relative;
-  max-width: 30%;
 
   display: inline-block;
   margin-bottom: 10px;
@@ -192,6 +191,82 @@ h1 {
   text-align: center;
 }
 
+/*PC*/
+@media screen and (min-width: 1024px) {
+  .menu-button {
+    display: none;
+  }
+  
+  .menu-button-checkbox {
+    display: none;
+  }
+}
+
+/*mobile*/
+@media screen and (max-width: 1023px) {
+  .container {
+    width: auto;
+  }
+  .menu-button{
+    float: right;
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+    background-color: transparent;
+    padding: 0px 15;
+    border: 0;
+  }
+
+  .menu-button-checkbox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 55px;
+    height: 40px;
+    opacity: 0;
+  }
+
+  .menu-button-checkbox:checked ~ .menu{
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    margin-top: 0;
+    padding-left: 0;
+    position: fixed;
+    right: 0;
+    top: 40px;
+    width: 150px;
+    height: 100%;
+    background: #D6D9Dc;
+  }
+
+  .menu li {
+    border: 0;
+    border-radius: 0;
+  }
+
+  #my_avatar {
+    width: 100%;
+  }
+
+  #my_avatar img {
+    display: block;
+    margin: 15px auto;
+  }
+
+  .item {
+    display: block;
+    max-width: 100%;
+    width: 80%;
+    margin: 15px auto;
+  }
+
+  form .contact_form {
+    width: 80%;
+  }
+}
 
 
 
